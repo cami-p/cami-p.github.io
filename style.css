@@ -1,0 +1,106 @@
+p {
+    font-family: 'Arial';
+    color: black;
+}
+
+body {
+    margin: 0px 0px 0px 0px
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(176, 225, 184);
+    background-image: linear-gradient(to bottom right, rgb(176, 62, 247), rgb(91, 121, 242), rgb(63, 244, 250));
+    padding: 50px
+}
+
+#name {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-evenly;
+    gap: 10px;
+}
+
+a.social:link, a.social:visited {
+    background-color: rgb(124, 219, 224);
+    color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.social:hover, a.social:active {
+    background-color: rgb(144, 104, 225);
+    color: white;
+}
+
+.header {
+    margin: 10px;
+    color: white;
+    font-size: 24px;
+}
+
+.infoSection {
+    background-color: rgb(124, 219, 224);
+    margin: 15px 15px;
+    padding: 15px 15px;
+    width: 45%
+}
+
+p.infoSection {
+    margin: 25px 15px;
+    color: white;
+    width: 50%
+}
+
+ul.infoSection {
+    margin: 25px 15px;
+    color: white;
+    width: 50%;
+}
+
+#AboutMe {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+#Classes {
+    font-family: 'Arial';
+    display: flex;
+    flex-direction: row;
+    justify-content: left; 
+}
+
+
+a:link {
+    color: blue
+}
+
+a:visited {
+    color: purple
+}
+
+a:hover {
+    color: blue
+}
+
+a:active {
+    color: red
+}
