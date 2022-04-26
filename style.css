@@ -1,10 +1,10 @@
 p {
-    font-family: 'Arial';
-    color: black;
+    font-family: 'Times New Roman';
+    color: white;
 }
 
 body {
-    margin: 0px 0px 0px 0px
+    margin: 0px 0px 0px 0px;
 }
 
 .intro {
@@ -14,7 +14,7 @@ body {
     align-items: center;
     background-color:rgb(176, 225, 184);
     background-image: linear-gradient(to bottom right, rgb(176, 62, 247), rgb(91, 121, 242), rgb(63, 244, 250));
-    padding: 50px
+    padding: 3%
 }
 
 #name {
@@ -23,7 +23,7 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 50px;
+    font-size: 2em;
 }
 
 .socials {
@@ -31,14 +31,14 @@ body {
     flex-direction: row;
     align-items: center;
     align-content: space-evenly;
-    gap: 10px;
+    gap: 2%;
 }
 
 a.social:link, a.social:visited {
     background-color: rgb(124, 219, 224);
     color: white;
     border: 2px solid white;
-    border-radius: 15px;
+    border-radius: 13%;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
@@ -51,18 +51,32 @@ a.social:hover, a.social:active {
 }
 
 .header {
-    margin: 10px;
+    margin: 2%;
     color: white;
     font-size: 24px;
 }
 
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.main3 {
+    display: flex;
+    justify-content: right;
+}
+
+
 .infoSection {
     background-color: rgb(124, 219, 224);
     margin: 15px 15px;
-    padding: 15px 15px;
-    width: 45%
+    padding: 3%;
+    width: 90%;
+    color: white;
 }
 
+/*
 p.infoSection {
     margin: 25px 15px;
     color: white;
@@ -74,6 +88,7 @@ ul.infoSection {
     color: white;
     width: 50%;
 }
+*/
 
 #AboutMe {
     display: flex;
@@ -82,10 +97,15 @@ ul.infoSection {
 }
 
 #Classes {
-    font-family: 'Arial';
     display: flex;
     flex-direction: row;
     justify-content: left; 
+}
+
+#Experience {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
 }
 
 
@@ -103,4 +123,8 @@ a:hover {
 
 a:active {
     color: red
+}
+
+#mephoto {
+    margin-top: 15px;
 }
